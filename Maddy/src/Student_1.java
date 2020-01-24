@@ -1,0 +1,23 @@
+class Student_1
+{
+public static void main(String[] args) {
+	String s=new String("saritha");
+ 	  String s1="saritha";
+ 	  if(s.equals(s1)) {
+ 		  System.out.println("pass");
+ 		  
+ 	  }
+ 	  if(s==s1) {
+ 		  System.out.println("pass");
+ 		  
+ 	  }
+ 	  else
+ 	  {
+ 		  System.out.println("fail");
+ 	  }
+}
+
+
+
+}
+
